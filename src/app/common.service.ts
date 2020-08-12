@@ -12,7 +12,6 @@ export class CommonService {
 
     name: ""
   }
-
   constructor() { }
   clickButton() {
     console.log(this.user)
