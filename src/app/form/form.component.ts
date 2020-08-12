@@ -26,8 +26,9 @@ export class FormComponent implements OnInit {
     console.log(this.userArr);
     // function namema enga clpnita
     this.clearMethod();
+
   }
-// buttona click pnathum automatic dlte pnura function
+  // buttona click pnathum automatic dlte pnura function
   clearMethod() {
     this.userObj = {
       name: "",
@@ -35,4 +36,10 @@ export class FormComponent implements OnInit {
       email: "",
     };
   }
+  // 
+  sendValue(useIndex) {
+    console.log(useIndex)
+  }
+
+
 }
