@@ -5,6 +5,7 @@ import { User } from 'src/models/User';
   providedIn: 'root'
 })
 export class CommonService {
+  // public email = "tamil"
   public users = {
     email: ""
   }
